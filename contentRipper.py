@@ -55,7 +55,7 @@ class ContentRipper(object):
 	def getSMS(self):
 		return self.__sms
 
-def main(stringhtml=""" """):
+def stringToSMS(stringhtml=""" """):
         c = ContentRipper()
         c.readoutListing_HTML_String(stringhtml)
         return c.getSMS()
