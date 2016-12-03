@@ -1,4 +1,3 @@
-
 class Event(object):
 	def __init__(self, pos, name='', club=''):
 		super(Event, self).__init__()
