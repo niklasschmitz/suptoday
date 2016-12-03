@@ -1,7 +1,7 @@
 from flask import Flask, request, redirect
 import twilio.twiml
 import requests
-import ContentRipper
+import contentRipper
 
 app = Flask(__name__)
 
