@@ -13,6 +13,9 @@ def incoming_message():
     
     print(from_number + ':' + message) #print on the console for debugging
     
+    ra_events_url = 'https://www.residentadvisor.net/events.aspx'
+    r = requests.get(ra_events_url, stream=True)
+    stringhtml = '"""'+str(r.raw)+'""""'
     
     
     resp = twilio.twiml.Response()
