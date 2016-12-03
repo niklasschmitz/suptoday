@@ -15,7 +15,7 @@ def incoming_message():
     
     ra_events_url = 'https://www.residentadvisor.net/events.aspx'
     r = requests.get(ra_events_url, stream=True)
-    stringhtml = '"""'+str(r.raw)+'""""'
+    stringhtml = r.content
     
     
     resp = twilio.twiml.Response()
