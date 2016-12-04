@@ -8,9 +8,8 @@ when receiving a SMS on a specified Twilio number, [Resident Advisor Listings](h
 - Flask
 - Python
 
-
-<img src="http://i.imgur.com/OeSZxhV.png" width="300">
 *example conversation*
+<img src="http://i.imgur.com/OeSZxhV.png" width="300">
 
 ##
 
