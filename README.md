@@ -1,10 +1,18 @@
 # suptoday
 
-##sms bot for RA listings
+##simple sms bot replying RA listings
 
-Just sent the following SMS to _Number_ :
-  "was geht heute"
- 
-and receive the Top 3 partys for tonight
+when receiving a SMS on a specified Twilio number, [Resident Advisor Listings](https://www.residentadvisor.net/events.aspx) will be read out and the user gets a SMS reply with the top 3 partys of the day
 
-made at Local Hack Day Berlin 2016
+- [Twilio API](https://www.twilio.com/docs/api)
+- Flask
+- Python
+
+##example conversation
+
+![example screenshot](http://imgur.com/a/Yog1X)
+
+##
+
+*made by* @niklasschmitz , @Bumbumcrit and @fiajo *at* 
+**Local Hack Day Berlin 2016**
