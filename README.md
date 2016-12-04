@@ -9,8 +9,8 @@ when receiving a SMS on a specified Twilio number, [Resident Advisor Listings](h
 - Python
 
 
-![example screenshot](http://i.imgur.com/OeSZxhV.png =300)
-<img src="https://github.com/favicon.ico" width="48">
+<img src="http://i.imgur.com/OeSZxhV.png" width="300">
+*example conversation*
 
 ##
 
