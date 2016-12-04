@@ -17,3 +17,4 @@ class Event(object):
 
 	def setClub(self, club):
 		self.__club = club
+
