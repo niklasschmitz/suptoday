@@ -26,9 +26,7 @@ class ListingsParser(object):
 			self.__Events[i].setName(i_name)
 			self.__Events[i].setClub(i_club)
 
-
 			self.__sms = self.__sms + str(i+1) + ": " + self.__Events[i].getName() + " @ " + self.__Events[i].getClub() + "\n"
-
 		
 	def getSMS(self):
 		return self.__sms
