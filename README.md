@@ -10,7 +10,7 @@ when receiving a SMS on a specified Twilio number, [Resident Advisor Listings](h
 
 ##example conversation
 
-![example screenshot](http://imgur.com/a/Yog1X)
+![example screenshot](http://i.imgur.com/OeSZxhV.png)
 
 ##
 
