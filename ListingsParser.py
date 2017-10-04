@@ -1,6 +1,5 @@
 class ListingsParser(object):
 	def __init__(self):
-		self.__Events = [Event(1), Event(2), Event(3)]
 		self.__sms = ""
 
 	def find_and_save_top_three_events(self, stringhtml):
@@ -23,10 +22,7 @@ class ListingsParser(object):
 			i_name = stringhtml[leftbound_i_name:rightbound_i_name]
 			i_club = stringhtml[leftbound_i_club:rightbound_i_club]
 
-			self.__Events[i].setName(i_name)
-			self.__Events[i].setClub(i_club)
-
-			self.__sms = self.__sms + str(i+1) + ": " + self.__Events[i].getName() + " @ " + self.__Events[i].getClub() + "\n"
+			self.__sms = self.__sms + str(i+1) + ": " + i_name + " @ " + i_club + "\n"
 		
 	def getSMS(self):
 		return self.__sms
