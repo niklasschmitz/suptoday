@@ -1,7 +1,6 @@
 from flask import Flask, request, redirect
 import twilio.twiml
 import requests
-import Event
 import ListingsParser
 
 app = Flask(__name__)
