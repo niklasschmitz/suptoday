@@ -17,11 +17,11 @@ def incoming_message():
     r = requests.get(ra_events_url, stream=True)
     stringhtml = r.content
     
-    find_and_save_top_three_events(stringhtml)
+    reply = parse_listings_into_sms(stringhtml)
     
     resp = twilio.twiml.Response()
-    reply = getSMS()
     resp.message(reply)
+    
     return str(resp)
 
 if __name__ == "__main__":
