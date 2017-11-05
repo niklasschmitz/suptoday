@@ -17,10 +17,10 @@ def incoming_message():
     r = requests.get(ra_events_url, stream=True)
     stringhtml = r.content
     
-    reply = parse_listings_into_sms(stringhtml)
+    sms = parse_listings_into_sms(stringhtml)
     
     resp = twilio.twiml.Response()
-    resp.message(reply)
+    resp.message(sms)
     
     return str(resp)
 
